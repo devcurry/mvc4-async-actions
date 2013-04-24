@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Hospital Daily Statistics</h2>
+
+<table border="1">
+    <thead>
+        <tr>
+            <td>Radiology Department</td>
+             <td>Pathology Department</td>
+             <td>IPD Department</td>
+        </tr>
+    </thead>
+    <tr>
+        <td>
+            @{
+                var gridRadiology = new WebGrid(ViewBag.Radiology);
+                @gridRadiology.GetHtml(columns:gridRadiology.Columns(gridRadiology.Column("PatientId","Patient Id"),
+                gridRadiology.Column("PatientRdiologyDetails","Radiology Details"),
+                gridRadiology.Column("RadiologyBill","Bill to Pay")));
+                }
+        </td>
+        <td>
+            @{
+                var gridPathology = new WebGrid(ViewBag.Pathology);
+                @gridPathology.GetHtml(
+                columns:gridPathology.Columns(
+                          gridPathology.Column("PatientId","Patient Id"),
+                          gridPathology.Column("PathologyDetails","Pathology Details"),
+                          gridPathology.Column("PathologyBill","Bill to Pay")
+                ));
+                }
+        </td>
+        <td>
+            @{
+                var gridIPD = new WebGrid(ViewBag.IPD);
+                @gridIPD.GetHtml(
+                 columns:gridIPD.Columns(
+                  gridIPD.Column("PatientId","Patient Id"),
+                   gridIPD.Column("IPDCheckDetails","IPD Checking Details"),
+                    gridIPD.Column("IPDBill","Bill to Pay")
+                 ));
+                }
+        </td>
+    </tr>
+
+    </table>

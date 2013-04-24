@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF_Pathology", "WCF_Pathology\WCF_Pathology.csproj", "{27A3BF98-381D-4414-B559-C9CB3449E8A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF_Radiology", "WCF_Radiology\WCF_Radiology.csproj", "{2930D74F-F421-4B4F-BBEF-F9591B5A0505}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF_IPD", "WCF_IPD\WCF_IPD.csproj", "{4B81791C-B3E8-4ACD-8B16-13293435120F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC40_Medical_App", "MVC40_Medical_App\MVC40_Medical_App.csproj", "{94C37255-D784-413E-8A23-DD040BC60696}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27A3BF98-381D-4414-B559-C9CB3449E8A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27A3BF98-381D-4414-B559-C9CB3449E8A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27A3BF98-381D-4414-B559-C9CB3449E8A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27A3BF98-381D-4414-B559-C9CB3449E8A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2930D74F-F421-4B4F-BBEF-F9591B5A0505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2930D74F-F421-4B4F-BBEF-F9591B5A0505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2930D74F-F421-4B4F-BBEF-F9591B5A0505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2930D74F-F421-4B4F-BBEF-F9591B5A0505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B81791C-B3E8-4ACD-8B16-13293435120F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B81791C-B3E8-4ACD-8B16-13293435120F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B81791C-B3E8-4ACD-8B16-13293435120F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B81791C-B3E8-4ACD-8B16-13293435120F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94C37255-D784-413E-8A23-DD040BC60696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94C37255-D784-413E-8A23-DD040BC60696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94C37255-D784-413E-8A23-DD040BC60696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94C37255-D784-413E-8A23-DD040BC60696}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

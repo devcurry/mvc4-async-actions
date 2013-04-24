@@ -1,0 +1,2 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="WCF_IPD.IPD" CodeBehind="IPD.svc.cs" 
+     Factory="System.ServiceModel.Activation.WebServiceHostFactory"%>
